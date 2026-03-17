@@ -1,13 +1,13 @@
-# Claude AI Skills v4.0
+# Claude AI Skills v5.0
 
-[![Version](https://img.shields.io/badge/version-4.0-blue.svg)](https://github.com/huamu668/claude-ai-skills)
+[![Version](https://img.shields.io/badge/version-5.0-blue.svg)](https://github.com/huamu668/claude-ai-skills)
+[![Security](https://img.shields.io/badge/security-pentest-red.svg)](./AI技能升级方案_v5.0_AI驱动智能安全测试.md)
 [![Multi-Agent](https://img.shields.io/badge/multi--agent-teams-orange.svg)](./AI技能升级方案_v4.0_MultiModalAgentTeams.md)
-[![Security](https://img.shields.io/badge/security-hardened-green.svg)](./AI技能升级方案_v3.0_安全增强版.md)
 [![License](https://img.shields.io/badge/license-MIT-yellow.svg)](LICENSE)
 
-> 🤖 从单一代理到专业团队：多模态感知、MCP工具生态、Agent团队编排
+> 🛡️ Kali Linux + AI Agent = 智能渗透测试系统
 >
-> 🌟 灵感来源：[awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps) + RTK + CashClaw
+> 🌟 灵感来源：[Kali Linux](https://github.com/ckjbug/kali-Linux-learning) + [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps) + RTK + CashClaw
 
 ## 📋 目录
 
@@ -34,13 +34,55 @@ Watch (监听) → Do (执行) → Get Better (进化)
 ## 版本演进
 
 ```
-v1.0 (基础工具) → v2.0 (RTK优化) → v3.0 (自主代理) → v4.0 (Agent团队)
-     被动执行          智能压缩          自主感知          团队协作
+v1.0 (基础工具) → v2.0 (RTK优化) → v3.0 (自主代理) → v4.0 (Agent团队) → v5.0 (智能安全测试)
+     被动执行          智能压缩          自主感知          团队协作          安全自动化
 ```
 
 ## 核心特性
 
-### 🎭 v4.0 新增特性
+### 🛡️ v5.0 新增特性 (AI驱动智能安全测试)
+
+#### 🔍 智能信息收集Agent
+- 自动化网络侦察（nmap, dnsenum, theHarvester）
+- AI规划扫描策略，智能选择工具
+- 多源数据融合分析
+- 攻击面自动识别
+
+#### 🌐 Web应用安全Agent
+- 自动化漏洞扫描（nikto, sqlmap, burpsuite）
+- 智能SQL注入/XSS检测
+- AI分析业务逻辑漏洞
+- 漏洞验证与风险评估
+
+#### 💥 漏洞利用Agent
+- Metasploit智能集成
+- 安全验证模式（仅验证，不破坏）
+- AI选择最佳验证方法
+- 完整审计日志
+
+#### 📡 无线安全Agent
+- WiFi安全审计（aircrack-ng）
+- 恶意AP检测
+- AI分析无线安全配置
+- 信号覆盖分析
+
+#### 🔬 数字取证Agent
+- 内存转储分析（volatility）
+- 磁盘取证（autopsy）
+- AI识别恶意进程和模式
+- 攻击时间线重建
+
+#### 📊 多模态安全分析
+- 截图安全分析（识别敏感信息泄露）
+- 日志智能分析（识别攻击模式）
+- 流量包分析（Wireshark集成）
+- 综合风险评估
+
+#### 📝 自动化报告生成
+- 符合PTES/OWASP标准
+- 执行摘要（管理层）
+- 技术详情（技术团队）
+- 修复指南（含代码示例）
 
 #### 👥 Agent团队编排
 - 多Agent协作系统
@@ -100,15 +142,16 @@ v1.0 (基础工具) → v2.0 (RTK优化) → v3.0 (自主代理) → v4.0 (Agent
 
 ## 版本对比
 
-| 维度 | v1.0 | v2.0 | v3.0 | **v4.0** |
-|------|------|------|------|----------|
-| **主动性** | 被动等待 | 半自动 | 全自动感知 | **Agent团队** |
-| **智能度** | 执行命令 | 优化输出 | 自主决策 | **多模态理解** |
-| **学习能力** | 无 | 无 | 持续进化 | **知识图谱** |
-| **知识管理** | 无 | 无 | BM25+知识库 | **图结构记忆** |
-| **Token效率** | 100% | 节省80% | 节省80%+智能选择 | **MCP优化** |
-| **工具生态** | 无 | 固定工具 | AgentCash API | **MCP协议** |
-| **自主性** | 低 | 中 | 高 | **团队协作** |
+| 维度 | v1.0 | v2.0 | v3.0 | v4.0 | **v5.0** |
+|------|------|------|------|------|----------|
+| **主动性** | 被动等待 | 半自动 | 全自动感知 | Agent团队 | **智能渗透测试** |
+| **智能度** | 执行命令 | 优化输出 | 自主决策 | 多模态理解 | **安全专家** |
+| **学习能力** | 无 | 无 | 持续进化 | 知识图谱 | **CVE图谱** |
+| **知识管理** | 无 | 无 | BM25+知识库 | 图结构记忆 | **安全情报** |
+| **Token效率** | 100% | 节省80% | 节省80%+智能选择 | MCP优化 | **日志分析** |
+| **工具生态** | 无 | 固定工具 | AgentCash API | MCP协议 | **Kali 600+工具** |
+| **自主性** | 低 | 中 | 高 | 团队协作 | **自动化测试** |
+| **领域** | 通用 | 通用 | 通用 | 通用 | **网络安全** |
 
 ## 快速开始
 
@@ -246,12 +289,14 @@ export AGENTCASH_BALANCE=10.0
 
 | 文件 | 说明 | 版本 |
 |------|------|------|
-| [AI技能升级方案_v4.0_MultiModalAgentTeams.md](./AI技能升级方案_v4.0_MultiModalAgentTeams.md) | Agent团队、多模态、MCP生态 | **v4.0 (最新)** |
+| [AI技能升级方案_v5.0_AI驱动智能安全测试.md](./AI技能升级方案_v5.0_AI驱动智能安全测试.md) | AI+Kali智能渗透测试系统 | **v5.0 (最新)** |
+| [AI技能升级方案_v4.0_MultiModalAgentTeams.md](./AI技能升级方案_v4.0_MultiModalAgentTeams.md) | Agent团队、多模态、MCP生态 | v4.0 |
 | [AI技能升级方案_v3.0_AutonomousAgent.md](./AI技能升级方案_v3.0_AutonomousAgent.md) | 完整技术文档，包含所有模块的详细实现 | v3.0 |
 | [AI技能升级方案_v3.0_安全增强版.md](./AI技能升级方案_v3.0_安全增强版.md) | 安全增强版本，修复了所有已知安全问题 | v3.0-secure |
 
 ### 版本特性对比
 
+- **v5.0 (AI-Powered Security)**：AI驱动的智能渗透测试系统，集成Kali Linux 600+安全工具
 - **v4.0 (Multi-Agent Teams)**：从单一代理升级到专业团队协作，支持多模态感知和MCP工具生态
 - **v3.0 标准版**：完整的功能实现，适合学习和理解系统架构
 - **v3.0 安全增强版**：在标准版基础上增加了全面的安全防护，推荐生产环境使用
@@ -260,6 +305,8 @@ export AGENTCASH_BALANCE=10.0
 
 | 技术 | 来源 | 整合方式 |
 |------|------|----------|
+| Kali Linux工具 | kali-Linux-learning | 安全Agent工具集成 |
+| Metasploit | awesome-hacking | 漏洞利用Agent |
 | Multi-Agent Teams | awesome-llm-apps | Agent团队编排器 |
 | MCP Protocol | awesome-llm-apps | MCP工具中心 |
 | Voice AI | awesome-llm-apps | 多模态感知系统 |
@@ -268,6 +315,18 @@ export AGENTCASH_BALANCE=10.0
 | CashClaw架构 | 原v3.0 | 基础Agent架构 |
 
 ## 技术栈
+
+### v5.0 新增技术 (网络安全)
+- **Kali Linux**: 600+安全工具集成
+- **Metasploit Framework**: 漏洞利用框架
+- **Nmap**: 网络扫描与发现
+- **Burp Suite**: Web应用安全测试
+- **Wireshark**: 网络流量分析
+- **Aircrack-ng**: 无线网络安全
+- **Volatility**: 内存取证分析
+- **Autopsy**: 数字取证平台
+- **SQLMap**: 自动化SQL注入
+- **Nessus**: 漏洞扫描引擎
 
 ### v4.0 新增技术
 - **Multi-Agent Orchestration**: Agent团队编排
@@ -285,17 +344,42 @@ export AGENTCASH_BALANCE=10.0
 
 ## 灵感来源与致谢
 
-本项目的v4.0版本深受 [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps) 启发，整合了以下优秀实践：
+本项目的v5.0版本整合了以下优秀项目和资源：
 
-- Multi-Agent Teams协作模式
-- MCP (Model Context Protocol) 工具协议
-- Voice AI Agents架构
-- Agentic RAG实现
-- Chat with X数据连接模式
+### 安全领域
+- [Kali Linux Learning](https://github.com/ckjbug/kali-Linux-learning) - Kali Linux学习资料，提供完整的安全工具链知识
+- [awesome-hacking](https://github.com/carpedm20/awesome-hacking) - 优秀的黑客工具集合
+- [metasploit-framework](https://github.com/rapid7/metasploit-framework) - 开源漏洞利用框架
+
+### AI Agent领域
+- [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps) - Multi-Agent Teams协作模式、MCP工具协议
+
+## 安全声明
+
+**⚠️ 重要提示：**
+
+本系统仅供**授权安全测试**使用。使用本系统进行安全测试时，请确保：
+
+1. 已获得目标系统的书面授权
+2. 严格遵守当地法律法规
+3. 仅在授权范围内进行测试
+4. 不对未授权系统进行任何测试
+
+**未经授权的安全测试属于违法行为。** 开发者不对任何非法使用承担责任。
 
 ## 更新日志
 
-### v4.0 (2024) - 最新版本
+### v5.0 (2024) - 最新版本 🛡️
+- ✨ AI驱动智能渗透测试系统
+- ✨ Kali Linux 600+工具集成
+- ✨ 安全Agent团队（Recon/Web/Exploit/Wireless/Forensic）
+- ✨ 多模态安全分析（截图/日志/流量）
+- ✨ 自动化PTES标准报告生成
+- ✨ CVE与Exploit知识图谱
+- ✨ 智能攻击路径规划
+- 🔗 整合 Kali Linux 安全工具链
+
+### v4.0 (2024)
 - ✨ Agent团队编排系统
 - ✨ 多模态感知（语音+图像+文本）
 - ✨ MCP工具生态系统
@@ -317,4 +401,4 @@ export AGENTCASH_BALANCE=10.0
 
 **GitHub**: [https://github.com/huamu668/claude-ai-skills](https://github.com/huamu668/claude-ai-skills)
 
-**版本**: v4.0-MultiModalAgentTeams
+**版本**: v5.0-AI-Powered-Security-Testing
